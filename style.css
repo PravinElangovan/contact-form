@@ -130,3 +130,38 @@ p i{
 .contact-details p i{
     color:rgb(169, 16, 121);
 }
+
+/* Following Code is for Responsive */
+
+
+@media (max-width: 950px) {
+    .main-container{
+        display: block;
+    }
+    .main-container .left-container{
+        text-align: center;
+        
+    }
+    .right-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right-container .left-form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .right-container .left-form{
+        width: 100%;
+    }
+    .right-container .right-form{
+        width: 100%;
+    }
+    #form input{
+        width: 100%;
+    }
+    #btn-submit{
+        border: 1px solid red;
+    }
+}
