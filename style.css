@@ -6,8 +6,9 @@
 
 .container{
     background-color: rgb(169, 16, 121);
-    height: 100vh;
+    height: auto;
     width:100vw;
+    
 }
 .main-container{
     width: 90%;
@@ -15,7 +16,7 @@
     margin: auto;
 }
 .left-container{
-    margin-top: 0.7rem;
+    
     color: white;
 }
 .right-container{
@@ -27,7 +28,7 @@
     padding: 3rem;
     border-radius: 1rem;
     height: auto;
-
+    margin-bottom: 3rem;
     gap: 4rem;
 }
 .left-form{
