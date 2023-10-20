@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(169, 16, 121);
+    height: 100vh;
+    width:100vw;
+}
+.main-container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.left-container{
+    margin-top: 0.7rem;
+    color: white;
+}
+.right-container{
+    background-color: rgb(46,2,73);
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    height: auto;
+
+    gap: 4rem;
+}
+.left-form{
+    color: white;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+.right-form{
+    background-color: #EEEEEE;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 50%;
+    height:auto ;
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+   
+   
+}
+.contact-details{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
+#form{
+   max-width: 100%;
+   
+   display: flex;
+   flex-direction: column;
+   
+}
+#btn-submit{
+    margin-top: 4rem !important;
+    background-color: rgb(169, 16, 121) !important;
+    padding:0.5rem;
+    max-width:10vw ;
+    color: white;
+    border-radius: 0.5rem;
+    border: none !important;
+    cursor: pointer;
+    
+   
+}
+#form input{
+    border: none;
+    border-bottom: 1px solid #C9C0CE;
+    margin-top: 1.5rem;
+    padding:0.5rem;
+    background-color: #EEEEEE;
+   
+}
+#form input:hover{
+    border: none;
+    border-bottom: 1px solid rgb(169, 16, 121) ;
+}
+#form input:focus{
+    border: none !important;
+    border-bottom: 1px solid rgb(169, 16, 121) !important;
+}
+.tags{
+    margin-top: 1rem;
+    
+}
+.tags button{
+    border: 1px solid #C9C0CE;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    
+}
+.social-links a{
+    color: white;
+    padding: 1rem;
+    
+    
+}
+.social-links a:hover{
+    background-color: rgb(169, 16, 121);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+p i{
+    margin-right: 0.5rem;
+}
+.active{
+    background-color: rgb(169, 16, 121);
+    color: white;
+}
+.contact-details p i{
+    color:rgb(169, 16, 121);
+}

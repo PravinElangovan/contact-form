@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>contact form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="left-container">
+                <h1>UI Web Design</h1>
+                <p>contact form</p>
+            </div>
+            <div class="right-container">
+                <div class="left-form">
+                    <h1>Let's Discuss something <span>cool together</span></h1>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> sauldesign@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 8189972354</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Street 456 House</p>
+                        
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    
+                    
+                </div>
+                <div class="right-form">
+                    <p>I'm Intreseted in...</p>
+                    <div class="tags" id="tag">
+                       
+                        <button>UI/UX design</button>
+                        <button >Web Design</button>
+                        <button >Graphic Design</button>
+                        <button>Design System</button>
+                        <button>Other</button>
+                    </div>
+                    <form onsubmit="sendEmail();reset();return false;" id="form">
+                        <input type="text" id="name"  placeholder="Your Name"/>
+                        <input type="email" id="email" placeholder="Your Email"/>
+                        <input type="text" id="message" placeholder="Your Message"/>
+                        <input type="submit" value="Send Message" id="btn-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
