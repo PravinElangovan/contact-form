@@ -43,10 +43,10 @@
                         <button>Other</button>
                     </div>
                     <form onsubmit="sendEmail();reset();return false;" id="form">
-                        <input type="text" id="name"  placeholder="Your Name"/>
-                        <input type="email" id="email" placeholder="Your Email"/>
-                        <input type="text" id="message" placeholder="Your Message"/>
-                        <input type="submit" value="Send Message" id="btn-submit">
+                        <input type="text" id="name"  placeholder="Your Name" required/>
+                        <input type="email" id="email" placeholder="Your Email" required/>
+                        <input type="text" id="message" placeholder="Your Message" required/>
+                        <input type="submit" value="Send Message" id="btn-submit" required>
                     </form>
                 </div>
             </div>
