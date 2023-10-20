@@ -72,7 +72,7 @@
     margin-top: 4rem !important;
     background-color: rgb(169, 16, 121) !important;
     padding:0.5rem;
-    max-width:10vw ;
+    width:10vw ;
     color: white;
     border-radius: 0.5rem;
     border: none !important;
@@ -147,6 +147,8 @@ p i{
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        width: 100%;
+        
     }
     .right-container .left-form{
         display: flex;
@@ -162,7 +164,5 @@ p i{
     #form input{
         width: 100%;
     }
-    #btn-submit{
-        border: 1px solid red;
-    }
+    
 }
