@@ -1,4 +1,8 @@
 const tagButtons = document.querySelectorAll('.tags button');
+const name = document.getElementById("name").value;
+const email = document.getElementById("email").value;
+const message = document.getElementById("message").value;
+
 var tag;
 function toggleActiveClass(event) {
     tagButtons.forEach((button) => {
@@ -21,9 +25,12 @@ function sendEmail(){
         Password : "0E53F12F7358905F91F2B57019D5573DCE65",
         To : 'pravin.bussiness@gmail.com',
         From : "pravinelangovan20@gmail.com",
-        Subject : "This is the subject",
-        Body : "And this is the body"
+        Subject : "Course Enquiry",
+        Body :"Name : " + document.getElementById("name").value 
+         + "<br> Email: "+ document.getElementById("email").value
+         + "<br> Course : "+ tag
+         + "<br> Message : " + document.getElementById("message").value
     }).then(
-      message => alert(message)
+      message => alert("Message Send Successfully")
     );
 }
