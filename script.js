@@ -2,7 +2,7 @@ const tagButtons = document.querySelectorAll('.tags button');
 const name = document.getElementById("name").value;
 const email = document.getElementById("email").value;
 const message = document.getElementById("message").value;
-
+var tagDom;
 var tag;
 function toggleActiveClass(event) {
     tagButtons.forEach((button) => {
@@ -10,6 +10,7 @@ function toggleActiveClass(event) {
     });
     event.target.classList.add('active');
     tag = event.target.innerText;
+    tagDom=event.target;
     console.log(tag);
 }
 console.log(tag);
@@ -33,4 +34,5 @@ function sendEmail(){
     }).then(
       message => alert("Message Send Successfully")
     );
+   tagDom.classList.remove('active');
 }
